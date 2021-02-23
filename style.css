@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url('music.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+h1 {
+    color: #1f08cc;
+    font-family: 'Akaya Telivigala', cursive;
+    word-spacing: 5rem;
+    
+}
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#buttons button {
+    outline: none;
+    margin: 2rem 2.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 0.8;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 1rem;
+}
+#buttons button:hover {
+    opacity: 1;
+}
